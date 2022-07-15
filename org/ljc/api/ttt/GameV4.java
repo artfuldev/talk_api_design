@@ -1,7 +1,9 @@
 package org.ljc.api.ttt;
-
-import java.util.Set;
+import java.util.Map;
 
 public interface GameV4 {
-    Set<Move> getMoves();
+    Player getPlayer();
+    Map<Position, Move> getMoves();
+//  same as
+//  Optional<Move> getMove(Position position);
 }
