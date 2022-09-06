@@ -1,6 +1,6 @@
 package org.ljc.api.ttt;
 
 
-public interface Undoable extends GameV4 {
-    GameV4 undo();
+public interface Undoable extends GameV5 {
+    GameV5 undo();
 }
